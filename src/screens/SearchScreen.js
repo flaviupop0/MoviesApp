@@ -2,8 +2,8 @@ import React, { useState } from "react";
 import { SafeAreaView, Text, StyleSheet, StatusBar } from "react-native";
 import { FlatList, TouchableOpacity } from "react-native-gesture-handler";
 import { withNavigation } from "react-navigation";
-import { Movies } from "./components/apicall";
-import SearchBar from "./components/SearchBar";
+import { Movies } from "../components/apicall";
+import SearchBar from "../components/SearchBar";
 import OneResult from "./OneResult";
 const SearchScreen = ({ navigation }) => {
   const [term, setTerm] = useState("");

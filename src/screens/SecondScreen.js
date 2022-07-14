@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import { StyleSheet, View, ScrollView, TouchableOpacity } from "react-native";
+import { StyleSheet, View, ScrollView } from "react-native";
 import { Text } from "react-native-elements";
 
 const SecondScreen = ({ navigation }) => {
